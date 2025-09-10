@@ -1,29 +1,25 @@
-# Color definitions
 CYAN = \033[1;36m
 YELLOW = \033[1;33m
 GREEN = \033[1;92m
 RED = \033[1;31m
 NC = \033[0m
 
-# Program names
 NAME_CLIENT = client
 NAME_SERVER = server
 
-# Compiler and flags
 CC = cc
 CFLAGS = -Wall -Wextra -Werror -I./libft -I./ft_printf
 
-# Source files
-SRC_CLIENT = client.c utils.c clientinput.c
-SRC_SERVER = server.c utils.c
+SRC_CLIENT = client.c  clientinput.c
+SRC_SERVER = server.c 
 
-# Library paths and names
+
 LIBFT_DIR = ./libft
 FT_PRINTF_DIR = ./ft_printf
 LIBFT = $(LIBFT_DIR)/libft.a
 FT_PRINTF = $(FT_PRINTF_DIR)/libftprintf.a
 
-# Default target
+
 all: logo $(LIBFT) $(FT_PRINTF) $(NAME_CLIENT) $(NAME_SERVER)
 
 
