@@ -6,7 +6,7 @@
 /*   By: hashammo <hashammo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/01 15:22:31 by hashammo          #+#    #+#             */
-/*   Updated: 2025/09/10 15:18:00 by hashammo         ###   ########.fr       */
+/*   Updated: 2025/09/11 12:08:51 by hashammo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,7 @@ int	valid_pid(char *s)
 		pid = pid * 10 + (s[i] - '0');
 		i++;
 	}
-	if (pid < 0 || pid > 999999)
+	if (pid < 0 || pid > 4194304)
 		return (0);
 	return (1);
 }

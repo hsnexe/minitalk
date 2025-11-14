@@ -6,7 +6,7 @@
 /*   By: hashammo <hashammo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/01 15:20:29 by hashammo          #+#    #+#             */
-/*   Updated: 2025/09/10 15:18:36 by hashammo         ###   ########.fr       */
+/*   Updated: 2025/11/14 13:54:36 by hashammo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,8 +17,8 @@
 # define ERROR_PID "invalid PID\n"
 # define ERROR_MSG "ERROR : MESSAGE IS EMPTY "
 
-# include "ft_printf.h"
-# include "libft.h"
+# include "../ft_printf/ft_printf.h"
+# include "../libft/libft.h"
 # include <signal.h>
 # include <unistd.h>
 # include <stdlib.h>
